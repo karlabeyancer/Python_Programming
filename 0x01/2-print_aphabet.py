@@ -13,11 +13,14 @@ You are not allowed to import any module
 
 """
 
-#Create an ascii number
+#Solution
 
 
-#asc_val = ord(input("Enter any character: "))
-alphabet_asc = chr(int(input("Enter an integer ")))
-print(alphabet_asc)
-#print(asc_val)
+#1st attempt worked
+
+#print(*(chr(i) for i in range(ord('a'), ord('z') + 1)), sep='', end='') Worked
+
+#2nd attempt,  worked too
+
+for i in range(26): print(f'{chr(ord("a") + i)}', end='')
 
