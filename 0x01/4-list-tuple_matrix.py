@@ -2,7 +2,7 @@
 matrix_list = []  # Initialize an empty list to hold the rows of the matrix
 count = 1  # Start counting from 1
 
-# Loop for each row
+# here is a Loop for each row
 for i in range(3):  # There are 3 rows
     row = []  # Initialize an empty list to hold the current row
     # Loop for each column
