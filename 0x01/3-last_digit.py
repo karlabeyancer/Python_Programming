@@ -18,7 +18,7 @@ import random
 number = random.randint(-10000, 10000)
 #print(number)
 #lastdigit =number / 10
-lastdigit = abs(number) % 10  #Modulus division  - negative numbers does
+lastdigit = abs(number) % 10  # Use abs to ensure last digit is positive
 #last = number // 10  #interger division
 #print(f"Last digit of {number} is ", end="" )   Variant of string formatting
 print("the last digit of {} is ".format(number), end="")  
