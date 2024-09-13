@@ -1,5 +1,5 @@
 
-addnum = __import__("1-add").funcaddnum
+addnum = __import__("1-add").funcaddnum   # Magic Method
 
 
 if __name__ == "__main__":
