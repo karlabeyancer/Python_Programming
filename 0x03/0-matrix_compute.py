@@ -35,4 +35,4 @@ if __name__== "__main__":
     print(matrix_pow(matrixlist, 2))
 
     
-# Rewrite the Matrix power using lamda and map ---Thu helps to minimize code
+# Rewrite the Matrix power using lamda and map ---This helps to minimize code
